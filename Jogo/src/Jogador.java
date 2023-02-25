@@ -13,7 +13,7 @@ public class Jogador {
     public Jogador(String nome) {
         this.nome = nome;
     }
-    
+     
     public void receberDano(int pontos){
         this.hp -= pontos;
     }
